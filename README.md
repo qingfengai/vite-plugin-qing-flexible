@@ -2,16 +2,16 @@
  * @Date: 2022-04-08 09:08:07
  * @Description: 
 -->
-# vite-qing-flexible
+# vite-plugin-qing-flexible
 
 Vite plugin that automatically injects flexible scripts and converts pixel units to rem units
 
 ### Install
 
 ```bash
-$ npm i vite-qing-flexible -D
+$ npm i vite-plugin-qing-flexible -D
 # or
-$ yarn add vite-qing-flexible -D
+$ yarn add vite-plugin-qing-flexible -D
 ```
 
 ### Usage
@@ -20,7 +20,7 @@ Config plugin in vite.config.ts
 
 ```javascript
 import { defineConfig } from 'vite';
-import flexible from 'vite-qing-flexible';
+import flexible from 'vite-plugin-qing-flexible';
 
 export default defineConfig({
   plugins: [

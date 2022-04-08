@@ -24,7 +24,7 @@ function resolvedOptions(userOptions?: UserOptions): Options {
 function flexible(userOptions?: UserOptions): Plugin {
   const options: Options = resolvedOptions(userOptions);
   return {
-    name: 'vite-qing-flexible',
+    name: 'vite-plugin-qing-flexible',
     enforce: 'pre',
     config() {
       return {
