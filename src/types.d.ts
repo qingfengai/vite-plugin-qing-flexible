@@ -29,7 +29,7 @@ export type Options = {
    * - Use `*` at the start or end of a word. (`['*position*']` will match `background-position-y`)
    * - Use `!` to not match a property. Example: `['*', '!letter-spacing']`
    * - Combine the "not" prefix with the other prefixes. Example: `['*', '!font*']`
-   * @default ["font", "font-size", "line-height", "letter-spacing"]
+   * @default ["*"]
    */
   propList: string[];
   /**

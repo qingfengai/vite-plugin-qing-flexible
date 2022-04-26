@@ -9,7 +9,7 @@ const DEFAULT_OPTIONS = {
   rootValue: 192,
   unitPrecision: 5,
   selectorBlackList: ['.el'],
-  propList: ['font', 'font-size', 'line-height', 'letter-spacing'],
+  propList: ['*'],
   replace: true,
   mediaQuery: false,
   minPixelValue: 0,
